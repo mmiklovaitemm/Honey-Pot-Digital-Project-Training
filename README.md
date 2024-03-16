@@ -1,14 +1,12 @@
 🎉 Welcome to Honey Pot Digital Project 🎉
 
-Hello there, and thank you for visiting my very first website!
-As a beginner in website development, learning new skills, experimenting with design, 
-and overcoming challenges along the way. It's a reflection of my passion for technology and my commitment to continuous growth.
-Here, you'll find a glimpse into my journey as a developer, from my humble beginnings to the projects I'm currently working on. 
-Whether you're a fellow newbie looking for inspiration, a seasoned pro lending a helping hand, 
-or simply curious about what I've created, I'm grateful for your presence.
-Feel free to explore
-And if you have any feedback, suggestions, or just want to say hello, 
-I'd love to hear from you! Drop me a message on GitHub or connect with me on social media.
-
+Hi there!
+As a total beginner in website development, I'm still getting the hang of things. 
+I'm basically taking inspiration from existing websites and trying my hand at coding by recreating their designs from scratch.
+This site isn't exactly my brainchild; I'm more like a student, learning as I go and practicing by replicating what I see. 
+But hey, we all have to start somewhere, right?
+Feel free to take a look around and see what I've come up with. 
+And if you have any thoughts, suggestions, or just want to chat, hit me up! 
+You can drop me a message on GitHub or connect with me on social media.
 Happy coding,
 Ugnė
