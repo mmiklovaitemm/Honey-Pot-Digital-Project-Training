@@ -8,5 +8,4 @@ But hey, we all have to start somewhere, right?
 Feel free to take a look around and see what I've come up with. 
 And if you have any thoughts, suggestions, or just want to chat, hit me up! 
 You can drop me a message on GitHub or connect with me on social media.
-Happy coding,
-Ugnė
+Happy coding
