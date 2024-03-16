@@ -1,0 +1,500 @@
+body {
+    margin: 0;
+    background-color: #f8f8f1;
+    font-family: 'Athletics', Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Header START */
+.main-header-container {
+    background-color: #f8f8f1;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 165px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.about-button {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: #efefe5;
+}
+
+.work-with-me-button {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.work-with-me-button:hover {
+    background-color: #efefe5;
+}
+
+.resources-button {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.resources-button:hover {
+    background-color: #efefe5;
+}
+
+.book-a-call-button {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #5e7036;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 10px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.book-a-call-button:hover {
+    background-color: #84916a;
+}
+/* Header END */
+
+/* ABOUT ME SECTION START */
+
+.about-me-full-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about-me-container {
+    margin-left: 15rem;
+}
+
+.p1 {
+    font-family: "GFS Didot", serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: #272923;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.p2 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 18px;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.p3 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 18px;
+    color: #272923;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.browse-my-services-button { 
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #dfaa26;
+    border: 1px solid #272923;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 15px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.browse-my-services-button:hover {
+    background-color: #f5c66b;
+    opacity: 0.8;
+}
+
+.about-me-image {
+    width: 32rem;
+    height: 32rem;
+    margin-left: 7rem;
+}
+/* ABOUT ME SECTION END */
+
+/* ABOUT ME SECTION 2 START */
+.about-me-image-2 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 21%;
+}
+
+.about-me-full-container-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about-me-container-2 {
+    margin-left: 2rem;
+}
+
+.about-me-2-p1 {
+    font-family: "GFS Didot", serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: #272923;
+    margin-bottom: -2px;
+}
+
+.about-me-2-p2 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-me-2-p3 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.about-me-p4 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+/* ABOUT ME SECTION 2 END */
+
+/* PODCAST SECTION START */
+
+.podcast-header-text {
+    font-family: "GFS Didot", serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #272923;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.podcast-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podcast-image {
+    width: 30rem;
+    height: 30rem;
+    margin-right: 5rem;
+    border-radius: 20px;
+    border: 1px solid #272923;
+}
+
+.podcast-1-text-container,
+.podcast-2-text-container,
+.podcast-3-text-container,
+.podcast-4-text-container,
+.podcast-5-text-container,
+.podcast-6-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.line-after-text {
+    border-bottom: 1px solid #272923;
+    width: 32rem;
+}
+
+.season-element {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: -30px;
+}
+
+.episode-element {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.episode-name-element {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    margin-left: 2rem;
+}
+
+.podcast-time-element1,
+.podcast-time-element2,
+.podcast-time-element3,
+.podcast-time-element4,
+.podcast-time-element5,
+.podcast-time-element6 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.podcast-time-element1 {
+    margin-left: 3rem;
+}
+.podcast-time-element2 {
+    margin-left: 4.5rem;
+}
+.podcast-time-element3 {
+    margin-left: 3.5rem;
+}
+.podcast-time-element4 {
+    margin-left: 36px;
+}
+.podcast-time-element5 {
+    margin-left: 62px;
+}
+.podcast-time-element6 {
+    margin-left: 62px;
+}
+
+.listen-to-podcast-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 3rem;
+}
+
+.listen-to-podcast-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #dfaa26;
+    border: 1px solid #272923;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 15px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.listen-to-podcast-button:hover {
+    background-color: #f5c66b;
+    opacity: 0.8;
+}
+/* PODCAST SECTION END */
+
+/* RECOMMENDED READING SECTION START */
+.recommended-reading-p-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.three-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.recommended-reading-p {
+    font-family: "GFS Didot", serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #272923;
+    margin-bottom: 2rem;
+}
+
+.first-image-class,
+.second-image-class,
+.third-image-class {
+    width: 320px;
+    height: 420px;
+    border-radius: 50px;
+    border: 1px solid #272923;
+    cursor: pointer;
+}
+
+.first-image-class,
+.second-image-class {
+    margin-right: 3rem;
+}
+
+.first-image-p-element,
+.second-image-p-element,
+.third-image-p-element {
+    justify-content: center;    
+    text-align: center;
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #272923;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.first-image-text-container,
+.second-image-text-container,
+.third-image-text-container {
+    width: 21rem;
+}
+/* RECOMMENDED READING SECTION END */
+
+/* FOOTER START */
+.three-footer-containers {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border: 1px solid #272923;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 30rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border-right: none;
+}
+
+.first-footer-container {
+    border-left: none;
+}
+
+.footer-logo {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+}
+
+.first-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.second-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+}
+
+.third-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.privacy-policy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.footer-p-1 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.footer-p-2 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
