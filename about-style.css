@@ -129,6 +129,7 @@ body {
     height: 40rem;
     object-fit: cover;
     border-radius: 30px;
+    pointer-events: none;
 }
 .green-background-on-first-image {
     position: absolute;
@@ -174,6 +175,7 @@ body {
     margin-left: 21%;
     border-radius: 30px;
     border: 1px solid #272923;
+    pointer-events: none;
 }
 
 .about-me-full-container {
