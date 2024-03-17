@@ -116,95 +116,80 @@ body {
 }
 /* Header END */
 
+/* FIRST IMAGE SECTION START */
+.first-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.about-page-first-image {
+    width: 61rem;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.green-background-on-first-image {
+    position: absolute;
+    width: 430px; 
+    height: 460px;
+    background-color: #5e7036;
+    bottom: 0;
+    top: 350px;
+    left: 272px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.green-background-text-container {
+    position: absolute;
+    top: 510px;
+    left: 300px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.green-background-first-p {
+    font-family: "Englebert", cursive;
+    font-size: 47px;
+    color: #eceae0;
+    margin-left: -1rem;
+    margin-bottom: -10px;
+}
+.green-background-second-p{
+    font-family: "Noto Sans Linear A", sans-serif;
+    font-size: 17px;
+    color: #eceae0;
+    margin-left: -5px;
+}
+/* FIRST IMAGE SECTION END */
+
 /* ABOUT ME SECTION START */
+.about-me-image {
+    width: 24rem;
+    height: 33rem;
+    margin-left: 21%;
+    border-radius: 30px;
+    border: 1px solid #272923;
+}
 
 .about-me-full-container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-bottom: 5rem;
+    margin-left: 4rem;
 }
 
 .about-me-container {
-    margin-left: 15rem;
+    margin-left: 3rem;
 }
 
-.p1 {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
-    font-size: 56px;
-    color: #272923;
-    margin-bottom: 1rem;
-    margin-top: -1rem;
-}
-
-.p2 {
-    font-family: "Noto Sans Symbols 2", sans-serif;
-    font-size: 18px;
-    color: #272923;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-}
-
-.p3 {
-    font-family: "Noto Sans Symbols 2", sans-serif;
-    font-size: 18px;
-    color: #272923;
-    margin-bottom: 2rem;
-    line-height: 1.5;
-}
-
-.browse-my-services-button { 
-    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    background-color: #dfaa26;
-    border: 1px solid #272923;
-    color: #272923;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 15px 15px;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
-}
-
-.browse-my-services-button:hover {
-    background-color: #f5c66b;
-    opacity: 0.8;
-}
-
-.about-me-image {
-    width: 32rem;
-    height: 32rem;
-    margin-left: 7rem;
-}
-/* ABOUT ME SECTION END */
-
-/* ABOUT ME SECTION 2 START */
-.about-me-image-2 {
-    width: 27rem;
-    height: 27rem;
-    margin-left: 21%;
-}
-
-.about-me-full-container-2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-.about-me-container-2 {
-    margin-left: 2rem;
-}
-
-.about-me-2-p1 {
+.about-me-p1 {
     font-family: "GFS Didot", serif;
     font-weight: 500;
     font-size: 45px;
@@ -212,7 +197,7 @@ body {
     margin-bottom: -2px;
 }
 
-.about-me-2-p2 {
+.about-me-p2 {
     font-family: "Noto Sans Symbols 2", sans-serif;
     font-size: 17px;
     color: #272923;
@@ -220,7 +205,7 @@ body {
     line-height: 1.5;
 }
 
-.about-me-2-p3 {
+.about-me-p3 {
     font-family: "Noto Sans Symbols 2", sans-serif;
     font-size: 17px;
     color: #272923;
@@ -235,186 +220,48 @@ body {
     margin-bottom: 2rem;
     line-height: 1.5;
 }
-/* ABOUT ME SECTION 2 END */
+/* ABOUT ME SECTION END */
 
-/* PODCAST SECTION START */
-
-.podcast-header-text {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
-    font-size: 40px;
-    color: #272923;
-    margin-bottom: 2rem;
-    margin-top: 10rem;
+/* MY FOCUS SECTION START */
+.my-focus-container {
     display: flex;
     justify-content: center;
-}
-
-.podcast-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.podcast-image {
-    width: 30rem;
-    height: 30rem;
-    margin-right: 5rem;
-    border-radius: 20px;
-    border: 1px solid #272923;
-}
-
-.podcast-1-text-container,
-.podcast-2-text-container,
-.podcast-3-text-container,
-.podcast-4-text-container,
-.podcast-5-text-container,
-.podcast-6-text-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: -20px;
-}
-
-.line-after-text {
-    border-bottom: 1px solid #272923;
-    width: 32rem;
-}
-
-.season-element {
-    font-family: "Baloo Bhaina 2", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    margin-bottom: -30px;
-}
-
-.episode-element {
-    font-family: "Baloo Bhaina 2", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.episode-name-element {
-    font-family: "Signika Negative", sans-serif;
-    font-size: 18px;
-    margin-left: 2rem;
-}
-
-.podcast-time-element1,
-.podcast-time-element2,
-.podcast-time-element3,
-.podcast-time-element4,
-.podcast-time-element5,
-.podcast-time-element6 {
-    font-family: "Baloo Bhaina 2", sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-}
-.podcast-time-element1 {
-    margin-left: 3rem;
-}
-.podcast-time-element2 {
-    margin-left: 4.5rem;
-}
-.podcast-time-element3 {
-    margin-left: 3.5rem;
-}
-.podcast-time-element4 {
-    margin-left: 36px;
-}
-.podcast-time-element5 {
-    margin-left: 62px;
-}
-.podcast-time-element6 {
-    margin-left: 62px;
-}
-
-.listen-to-podcast-button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    align-items: start;
+    flex-direction: column;
     margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 20%;
 }
-
-.listen-to-podcast-button {
-    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    background-color: #dfaa26;
-    border: 1px solid #272923;
-    color: #272923;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 15px 15px;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
-}
-.listen-to-podcast-button:hover {
-    background-color: #f5c66b;
-    opacity: 0.8;
-}
-/* PODCAST SECTION END */
-
-/* RECOMMENDED READING SECTION START */
-.recommended-reading-p-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-}
-
-.three-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.recommended-reading-p {
+.my-focus-p1 {
     font-family: "GFS Didot", serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 50px;
     color: #272923;
-    margin-bottom: 2rem;
+    margin-bottom: -2px;
 }
-
-.first-image-class,
-.second-image-class,
-.third-image-class {
-    width: 320px;
-    height: 420px;
-    border-radius: 50px;
-    border: 1px solid #272923;
-    cursor: pointer;
+.my-focus-p2 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
-
-.first-image-class,
-.second-image-class {
-    margin-right: 3rem;
-}
-
-.first-image-p-element,
-.second-image-p-element,
-.third-image-p-element {
-    justify-content: center;    
-    text-align: center;
+.my-focus-p3 {
     font-family: "Noto Sans Symbols 2", sans-serif;
     font-size: 18px;
-    font-weight: 600;
     color: #272923;
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    line-height: 1.5;
 }
-
-.first-image-text-container,
-.second-image-text-container,
-.third-image-text-container {
-    width: 21rem;
+.my-focus-p4 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 18px;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
-/* RECOMMENDED READING SECTION END */
+/* MY FOCUS SECTION END */
 
 /* FOOTER START */
 .three-footer-containers {
