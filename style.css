@@ -28,7 +28,7 @@ body {
 }
 
 .about-button {
-    font-family: "Noto Sans Linear A", sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     background-color: #f8f8f1;
@@ -50,7 +50,7 @@ body {
 }
 
 .work-with-me-button {
-    font-family: "Noto Sans Linear A", sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     background-color: #f8f8f1;
@@ -72,7 +72,7 @@ body {
 }
 
 .resources-button {
-    font-family: "Noto Sans Linear A", sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     background-color: #f8f8f1;
@@ -94,7 +94,7 @@ body {
 }
 
 .book-a-call-button {
-    font-family: "Noto Sans Linear A", sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
     background-color: #5e7036;
@@ -125,15 +125,12 @@ body {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
 .about-me-container {
     margin-left: 15rem;
 }
-
 .p1 {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
-    font-size: 56px;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 52px;
     color: #272923;
     margin-bottom: 1rem;
     margin-top: -1rem;
@@ -145,6 +142,7 @@ body {
     color: #272923;
     margin-bottom: 1rem;
     line-height: 1.5;
+    margin-left: 3px;
 }
 
 .p3 {
@@ -153,6 +151,7 @@ body {
     color: #272923;
     margin-bottom: 2rem;
     line-height: 1.5;
+    margin-left: 4px;
 }
 
 .browse-my-services-button { 
@@ -171,6 +170,7 @@ body {
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s ease, opacity 0.3s ease;
+    margin-left: 3px;
 }
 
 .browse-my-services-button:hover {
@@ -205,9 +205,8 @@ body {
 }
 
 .about-me-2-p1 {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
-    font-size: 45px;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
     color: #272923;
     margin-bottom: -2px;
 }
@@ -240,8 +239,7 @@ body {
 /* PODCAST SECTION START */
 
 .podcast-header-text {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-size: 40px;
     color: #272923;
     margin-bottom: 2rem;
@@ -374,11 +372,10 @@ body {
 }
 
 .recommended-reading-p {
-    font-family: "GFS Didot", serif;
-    font-weight: 500;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-size: 40px;
     color: #272923;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .first-image-class,
@@ -401,7 +398,7 @@ body {
 .third-image-p-element {
     justify-content: center;    
     text-align: center;
-    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #272923;
