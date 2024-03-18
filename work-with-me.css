@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    background-color: #f8f8f1;
+    font-family: 'Athletics', Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Header START */
+.main-header-container {
+    background-color: #f8f8f1;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 165px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.about-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: #efefe5;
+}
+
+.work-with-me-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.work-with-me-button:hover {
+    background-color: #efefe5;
+}
+
+.resources-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.resources-button:hover {
+    background-color: #efefe5;
+}
+
+.book-a-call-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #5e7036;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 10px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+
+.book-a-call-button:hover {
+    background-color: #84916a;
+}
+/* Header END */
+
+/* WORK WITH ME FIRST SECTION START */
+.work-with-me-first-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 6%;
+}
+.work-with-me-first-image {
+    width: 23rem;
+    height: 30rem;
+    margin-right: 5rem;
+    margin-left: 3rem;
+    border-radius: 30px;
+    border: 1px solid #272923;
+}
+.work-with-me-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 48px;
+    color: #272923;
+    margin-bottom: -1px;
+}
+.work-with-me-p2,
+.work-with-me-p3 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+/* WORK WITH ME FIRST SECTION END */
+
+/* WORK WITH ME SECOND SECTION START */
+.work-with-me-second-section-buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.work-with-me-second-section-p1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2rem;
+}
+.work-with-me-second-section-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 40px;
+    color: #272923;
+}
+.work-with-me-second-section-button1,
+.work-with-me-second-section-button2,
+.work-with-me-second-section-button3 {
+    font-size: 18px;
+    background-color: #efefe5;
+    border: 1px solid #272923;
+    color: #272923;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-top: 3rem;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    width: 26rem;
+    height: 18rem;
+}
+.work-with-me-second-section-button1,
+.work-with-me-second-section-button2 {
+    margin-right: 1rem;
+}
+.work-with-me-second-section-button1:hover,
+.work-with-me-second-section-button2:hover,
+.work-with-me-second-section-button3:hover {
+    background-color: #5e7036;
+}
+.button-1-p1,
+.button-2-p1,
+.button-3-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+/* WORK WITH ME SECOND SECTION END */
+
+/* FOOTER START */
+.three-footer-containers {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border: 1px solid #272923;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 30rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border-right: none;
+}
+
+.first-footer-container {
+    border-left: none;
+}
+
+.footer-logo {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+}
+
+.first-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.second-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+}
+
+.third-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.privacy-policy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.footer-p-1 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.footer-p-2 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+/* FOOTER END */
