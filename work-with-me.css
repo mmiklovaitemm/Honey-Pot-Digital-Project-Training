@@ -170,28 +170,23 @@ body {
 .work-with-me-second-section-button2,
 .work-with-me-second-section-button3 {
     font-size: 18px;
-    background-color: #ede9dd;
+    background-color: #f8f8f1;
     border: 1px solid #272923;
     color: #272923;
     text-align: start;
     text-decoration: none;
     display: inline-block;
-    cursor: pointer;
     border-radius: 10px;
     padding: 15px 30px;
     margin-top: 3rem;
     transition: background-color 0.3s ease, opacity 0.3s ease;
     width: 26rem;
     height: 18rem;
+    margin-bottom: -2rem;
 }
 .work-with-me-second-section-button1,
 .work-with-me-second-section-button2 {
     margin-right: 1rem;
-}
-.work-with-me-second-section-button1:hover,
-.work-with-me-second-section-button2:hover,
-.work-with-me-second-section-button3:hover {
-    background-color: #5e7036;
 }
 .button-1-p1,
 .button-2-p1,
