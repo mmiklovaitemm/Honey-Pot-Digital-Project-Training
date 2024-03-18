@@ -163,14 +163,14 @@ body {
 }
 .work-with-me-second-section-p1 {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     color: #272923;
 }
 .work-with-me-second-section-button1,
 .work-with-me-second-section-button2,
 .work-with-me-second-section-button3 {
     font-size: 18px;
-    background-color: #efefe5;
+    background-color: #ede9dd;
     border: 1px solid #272923;
     color: #272923;
     text-align: start;
@@ -201,6 +201,161 @@ body {
     font-size: 25px;
 }
 /* WORK WITH ME SECOND SECTION END */
+
+/* WORK WITH ME THIRD SECTION START */
+.work-with-me-third-section-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.work-with-me-third-section-button1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2rem;
+}
+.work-with-me-third-section-button-1-image,
+.work-with-me-third-section-button-2-image,
+.work-with-me-third-section-button-3-image {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 30px;
+    border: 1px solid #272923;
+}
+.work-with-me-third-section-button-2-image {
+    margin-right: 1.5rem;
+}
+.work-with-me-third-section-button-1-image {
+    margin-top: 1rem;
+}
+.work-with-me-third-section-button1-text-container1 {
+    display: flex;
+    justify-content: center;
+}
+.work-with-me-third-section-button1-text-container2 {
+    width: 37rem;
+}
+.work-with-me-third-section-button1,
+.work-with-me-third-section-button2,
+.work-with-me-third-section-button3 {
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px 15px;
+    margin-top: 3rem;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    width: 59rem;
+    height: 24rem;
+}
+.work-with-me-third-section-button2 {
+    height: 22.5rem;
+}
+.work-with-me-third-section-button3{
+    height: 21.5rem;
+}
+.work-with-me-third-section-button1:hover,
+.work-with-me-third-section-button2:hover,
+.work-with-me-third-section-button3:hover {
+    background-color: #ede9dd;
+}
+.third-section-button1-p1,
+.third-section-button2-p1,
+.third-section-button3-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #272923;
+    margin-bottom: -2px;
+}
+.third-section-button1-p2,
+.third-section-button2-p2,
+.third-section-button3-p2 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+.third-section-button1-p3 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+.third-section-button1-p4 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #272923;
+    line-height: 1;
+}
+.third-section-button1-p5 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #272923;
+    line-height: 1;
+    border: 1px solid #272923;
+    width: 7rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.your-goals-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.your-goals-button-container-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #272923;
+    margin-bottom: -1px;
+}
+.your-goals-button-container-p2,
+.your-goals-button-container-p3,
+.your-goals-button-container-p4 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-size: 16px;
+    color: #272923;
+    margin-bottom: -5px;
+    line-height: 1.5;
+}
+.your-goals-button { 
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #dfaa26;
+    border: 1px solid #272923;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    margin-top: 2rem;
+}
+
+.your-goals-button:hover {
+    background-color: #f5c66b;
+    opacity: 0.8;
+}
+/* WORK WITH ME THIRD SECTION START */
 
 /* FOOTER START */
 .three-footer-containers {
