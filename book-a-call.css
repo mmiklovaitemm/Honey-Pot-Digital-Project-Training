@@ -190,7 +190,9 @@ body {
 #additional-info {
     height: 3rem;
 }
-#support1 {
+#support1,
+#support2,
+#support3 {
     font-family: "Noto Sans Symbols 2", sans-serif;
     font-weight: 500;
     font-size: 17px;
@@ -214,6 +216,31 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-top: -1rem;
+}
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Create a custom checkbox that looks like the default one */
+input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10.5px;
+    margin-right: 10px;
+    border: 1px solid #5e7036;
+    border-radius: 2px; 
+    background-repeat: no-repeat;
+    background-position: 50% 50%; /* Center the background image */
+    background-size: 100%; /* Adjust the size of the checkmark */
+}
+
+/* Change the appearance of the custom checkbox when the real checkbox is checked */
+input[type="checkbox"]:checked + label:before {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 56"><polyline points="10,25 22,37 40,15" stroke="white" stroke-width="8" fill="none" /></svg>');
+    background-color: #5e7036;
+    background-position: 50% 50%; /* Center the checkmark */
 }
 /* BOOK A CALL FORM SECTIONS END */
 

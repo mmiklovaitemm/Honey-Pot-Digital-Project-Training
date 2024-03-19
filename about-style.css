@@ -26,12 +26,11 @@ body {
     margin-right: 5rem;
     margin-top: 1rem;
 }
-
 .about-button {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
-    background-color: #f8f8f1;
+    background-color: #efefe5;
     border: none;
     color: #272923;
     text-align: center;
@@ -44,11 +43,6 @@ body {
     width: 9rem;
     transition: background-color 0.3s ease;
 }
-
-.about-button:hover {
-    background-color: #efefe5;
-}
-
 .work-with-me-button {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
