@@ -151,9 +151,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: start;
+    align-items: center;
     margin-top: 3rem;
-    margin-left: 21.5%;
 }
 .first-name-label,
 .last-name-label,
@@ -200,6 +199,10 @@ body {
 }
 .support-question-container {
     margin-bottom: 1.5rem;
+    margin-left: -158px;
+}
+.container1 {
+    margin-left: -181px;
 }
 .submit-button {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
