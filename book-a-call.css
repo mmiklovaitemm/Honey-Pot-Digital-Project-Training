@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    background-color: #f8f8f1;
+    font-family: 'Athletics', Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Header START */
+.main-header-container {
+    background-color: #f8f8f1;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 165px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+
+.about-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+.about-button:hover {
+    background-color: #efefe5;
+}
+
+.work-with-me-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+.work-with-me-button:hover {
+    background-color: #efefe5;
+}
+.resources-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #f8f8f1;
+    border: none;
+    color: #272923;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 20px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+.resources-button:hover {
+    background-color: #efefe5;
+}
+.book-a-call-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #b6c0a1;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 999px;
+    margin-right: 10px;
+    height: 3rem;
+    width: 9rem;
+    transition: background-color 0.3s ease;
+}
+.book-a-call-button:hover {
+    background-color: #c3ccb1;
+}
+/* Header END */
+
+/* BOOK A CALL FIRST SECTION START */
+.book-a-call-full-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-a-call-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.book-a-call-first-image {
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid #272923;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+.book-a-call-first-section-p1 {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 41px;
+    color: #272923;
+    margin-bottom: -1px;
+}
+.book-a-call-first-section-p2,
+.book-a-call-first-section-p3,
+.book-a-call-first-section-p4 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #272923;
+}
+/* BOOK A CALL FIRST SECTION END */
+
+/* BOOK A CALL FORM SECTIONS START */
+.fill-forms-full-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 3rem;
+    margin-left: 21.5%;
+}
+.first-name-label,
+.last-name-label,
+.email-label,
+.company-name-label,
+.website-name-label,
+.support-main-question-label,
+.support-second-question-label,
+.hear-about-me-question-label,
+.additional-info-label {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #272923;
+}
+#first-name,
+#last-name,
+#email,
+#company-name,
+#website-name,
+#hear-about-me,
+#additional-info {
+    width: 53.5rem;
+    height: 2rem;
+    border: 1px solid #272923;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+    padding-left: 1rem;
+}
+#additional-info {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+}
+#hear-about-me,
+#additional-info {
+    height: 3rem;
+}
+#support1 {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+}
+.support-question-container {
+    margin-bottom: 1.5rem;
+}
+.submit-button {
+    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 12px 16px;
+    background-color: #272923;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: -1rem;
+}
+/* BOOK A CALL FORM SECTIONS END */
+
+/* FOOTER START */
+.three-footer-containers {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border: 1px solid #272923;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 30rem;
+}
+.first-footer-container,
+.second-footer-container,
+.third-footer-container {
+    border-right: none;
+}
+
+.first-footer-container {
+    border-left: none;
+}
+
+.footer-logo {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 1rem;
+}
+
+.first-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.second-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+}
+
+.third-footer-p {
+    font-family: "Noto Sans Symbols 2", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #272923;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.privacy-policy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+}
+
+.footer-p-1 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.footer-p-2 {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    font-size: 15px;
+    color: #272923;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+/* FOOTER END */
