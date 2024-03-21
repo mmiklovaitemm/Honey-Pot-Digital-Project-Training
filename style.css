@@ -31,7 +31,7 @@ body {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
     font-size: 18px;
-    background-color: #f8f8f1;
+    background-color: #efefe5;
     border: none;
     color: #272923;
     text-align: center;
@@ -40,15 +40,10 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 100px;
+    transition: background-color 0.2s ease;
 }
-
-.about-button:hover {
-    background-color: #efefe5;
-}
-
 .work-with-me-button {
     font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 600;
@@ -62,9 +57,9 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
 
 .work-with-me-button:hover {
@@ -84,9 +79,9 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
 
 .resources-button:hover {
@@ -106,11 +101,10 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 10px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
-
 .book-a-call-button:hover {
     background-color: #84916a;
 }

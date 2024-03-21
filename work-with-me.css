@@ -40,9 +40,9 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 100px;
+    transition: background-color 0.2s ease;
 }
 
 .about-button:hover {
@@ -62,11 +62,10 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
-
 .work-with-me-button:hover {
     background-color: #efefe5;
 }
@@ -84,9 +83,9 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 20px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
 
 .resources-button:hover {
@@ -106,9 +105,9 @@ body {
     cursor: pointer;
     border-radius: 999px;
     margin-right: 10px;
-    height: 3rem;
-    width: 9rem;
-    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 160px;
+    transition: background-color 0.2s ease;
 }
 
 .book-a-call-button:hover {
