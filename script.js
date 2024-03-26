@@ -24,7 +24,7 @@ button.addEventListener('click', function() {
 
   // Toggle klasės pridėjimą/šalinimą dropdown'ui
   dropdown.classList.toggle('active');
-  
+
   // Toggle klasės pridėjimą/šalinimą mygtukui, kai dropdown yra aktyvuotas
   if (dropdown.classList.contains('active')) {
     button.classList.add('active');

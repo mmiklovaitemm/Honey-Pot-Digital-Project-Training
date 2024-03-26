@@ -109,17 +109,15 @@ body {
 }
 
 .dropdown-content {
-    position: absolute;
+    position: fixed;
     background-color: #eceae0;
-    width: 1420px;
+    width: 93%;
     height: 600px;
     margin-top: 15px;
     border-radius: 60px;
     z-index: 1;
-    left: 50%;
-    transform: translateX(-80%); /* Centruojame pagal plotį */
+    left: 55px;
 }
-
 /* RESOURCES BUTTON DROPDOWN MENU END */
 
 .book-a-call-button {
