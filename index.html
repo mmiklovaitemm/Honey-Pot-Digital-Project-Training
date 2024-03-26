@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honey Pot Digital - Your Remote Digital Marketing Coach</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +16,14 @@
                 <a href="index.html"><img src="images/logo-img.png" class="logo-img" alt="Honey Pot Digital"></a>
             </div>
             <div class="nav-buttons">
-                <a href="about.html"><button class="about-button">About</button></a>
-                <a href="work-with-me.html"><button class="work-with-me-button">Work with me</button></a>
-                <a href="resources.html"><button class="resources-button">Resources</button></a>
-                <a href="book-a-call.html"><button class="book-a-call-button">Book a Call</button></a>
+                <a href="about.html"><button class="about-button" type="button">About</button></a>
+                <a href="work-with-me.html"><button class="work-with-me-button" type="button">Work with me</button></a>
+                <div class="dropdown">
+                    <button class="resources-button" type="button">Resources <span class="arrow">&#x25BC;</span></button>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+                <a href="book-a-call.html"><button class="book-a-call-button" type="button">Book a Call</button></a>
             </div>
         </div>
     </header>
@@ -28,7 +34,7 @@
                 <p class="p1">Let's Grow Your<br>Hive with Great<br>Marketing</p>
                 <p class="p2">Hi! I'm Emma, the face behind each tailored strategy.</p>
                 <p class="p3">I focus on sustainable marketing, designed to help your<br>small business thrive, without the overwhelm.</p>
-                <button class="browse-my-services-button">Browse my services</button>
+                <button class="browse-my-services-button" type="button">Browse my services</button>
             </div>
                 <img src="images/about-me-image.png" class="about-me-image" alt="about-me-image">
         </div>
@@ -144,7 +150,7 @@
             </div>
         </div>
         <div class="listen-to-podcast-button-container">
-            <button class="listen-to-podcast-button">Listen to Podcast</button>
+            <button class="listen-to-podcast-button" type="button">Listen to Podcast</button>
         </div>
     </section>
 
@@ -212,5 +218,8 @@
             <p class="footer-p-2">© HONEY POT DIGITAL LIMITED 2023</p>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
