@@ -112,7 +112,7 @@ body {
     margin-top: 15px;
     border-radius: 60px;
     z-index: 1;
-    transform: translateX(-74%);
+    left: 55px;
 }
 /* RESOURCES BUTTON DROPDOWN MENU END */
 
