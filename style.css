@@ -105,15 +105,14 @@ body {
 }
 
 .dropdown-content {
-    display: none;
     position: absolute;
     background-color: #eceae0;
-    width: 1430px;
-    left: -1055px;
+    width: 1440px;
     height: 600px;
     margin-top: 15px;
     border-radius: 60px;
     z-index: 1;
+    transform: translateX(-73.5%);
 }
 /* RESOURCES BUTTON DROPDOWN MENU END */
 
