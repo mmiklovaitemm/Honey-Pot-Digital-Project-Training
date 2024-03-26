@@ -111,12 +111,12 @@ body {
 .dropdown-content {
     position: absolute;
     background-color: #eceae0;
-    width: 1430px;
+    width: 1420px;
     height: 600px;
     margin-top: 15px;
     border-radius: 60px;
     z-index: 1;
-    left: 50%; /* Pridedame left: 50% */
+    left: 50%;
     transform: translateX(-80%); /* Centruojame pagal plotį */
 }
 
