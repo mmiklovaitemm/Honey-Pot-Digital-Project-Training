@@ -74,7 +74,6 @@ body {
     position: relative;
     display: inline-block;
 }
-
 .arrow {
     font-size: 0.7em;
     position: relative;
@@ -100,20 +99,27 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.resources-button:hover {
-    background-color: #eceae0;
+.resources-button.active,
+.resources-button.active:hover {
+  background-color: #eceae0;
+}
+
+.dropdown-content.active {
+  display: block;
 }
 
 .dropdown-content {
-    position: fixed;
+    position: absolute;
     background-color: #eceae0;
-    width: 93%;
+    width: 1430px;
     height: 600px;
     margin-top: 15px;
     border-radius: 60px;
     z-index: 1;
-    left: 55px;
+    left: 50%; /* Pridedame left: 50% */
+    transform: translateX(-80%); /* Centruojame pagal plotį */
 }
+
 /* RESOURCES BUTTON DROPDOWN MENU END */
 
 .book-a-call-button {
@@ -382,7 +388,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .three-image-container {
