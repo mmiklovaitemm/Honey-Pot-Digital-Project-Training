@@ -141,7 +141,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .about-page-first-image {
     width: 61rem;
@@ -201,8 +201,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
     margin-left: 4rem;
 }
 
@@ -297,29 +296,99 @@ body {
     color: #272923;
     margin-bottom: -1.5rem;
 }
-.marketing-options-button { 
-    font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 600;
-    font-size: 17px;
-    background-color: #dfaa26;
-    border: 1px solid #272923;
-    color: #272923;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 20px 20px;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
-    margin-top: 4rem;
+
+/* LETS REVIEW YOUR MARKETING OPTIONS BUTTON CSS START */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.marketing-options-button:hover {
-    background-color: #f5c66b;
-    opacity: 0.8;
+nav ul li {
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.2em solid var(--c);
+    border-radius: 0.5em;
+    width: 15em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 15px;
+    border: 0.2em solid var(--c);
+    border-radius: 0.5em;
+    width: 27em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    margin-top: 3em;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: #272923;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+/* LETYS REVIWE YOUR MARKETING OPTIONS BUTTON CSS END */
+
 /* MY FOCUS SECTION END */
 
 /* FOOTER START */
